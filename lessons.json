@@ -1,0 +1,103 @@
+[
+  {
+    "id": 1,
+    "title": "Time Management 101",
+    "content": [
+      {
+        "heading":"What is Time Management? Why is it an essential skill? ",
+        "text":["Time management is a crucial soft skill that involves organizing and planning how to divide your time between activities that need to be done. ",
+        "Mastering this skill can lead to increased productivity, less stress, and more success in both personal and professional life. "]
+      },
+      {
+        "heading":"Always plan Ahead",
+        "text": ["Make sure you start every day with a clear idea of what you need to do THAT DAY. If possible, plan you work ahead of time. Even if things may not happen exactly as planned, we will still have a general idea/structure to work off of. "]
+      },
+      {
+        "heading":"Why should I manage my time wisely?",
+        "text":["By prioritizing tasks and managing your schedule, you can accomplish more in less time, improve your focus, and create a better work-life balance. When you're organized and have a plan, you're less likely to feel overwhelmed and stressed about deadlines and the workload. "]
+      },
+      {
+        "heading":"How to prioritize tasks",
+        "text": ["look at your daily tasks and determine which are: ",
+      "Important and urgent: Do them as soon as possible. ",
+      "Important but not urgent: Decide on a time to do them in the near future. ",
+      "Urgent but not important: If possible, see if you can assign someone else to do them. ",
+      "Not urgent and not important: Do them when there is time. "]
+      },
+      {
+        "heading": "Take a break between tasks",
+        "text":["It is harder to stay focused and motivated without taking breaks. Allow your self some time between tasks to clear your head and refresh yourself. ",
+        "Do activites that keep your mind at ease rather than act up. "]
+      },
+      {
+        "heading":"Clear and Effective communication",
+        "text":["When roles, responsibilities, and deadlines are clearly communicated, it minimizes the potential for confusion and wasted time on incorrect or incomplete tasks. "]
+      },
+      {
+        "heading": "Dealing with Procrastination",
+        "text": ["Procrastination often stems from fear of failure, lack of motivation, or feeling overwhelmed.",
+        "Breaking large tasks into smaller, achievable steps can make them feel more manageable.",
+        "Try the '2-minute rule': If something will take less than 2 minutes, do it right now."
+      ]
+      },
+      {
+        "heading":"Pomodoro Technique",
+        "text":["This method involves 25-minute focused work sessions followed by 5-minute breaks. This technique helps in reducing procrastination and maintain concentration at work."]
+      },
+      {
+        "heading":"Eisenhower Matrix",
+        "text":["This is a Time management and prioritization tool that categorizes tasks based on their urgency and importance. A grid to prioritize tasks by urgency and importance: Do, Schedule, Delegate, or Delete."]
+      },
+      {
+        "heading": "Avoiding Multitasking",
+        "text": ["Multitasking feels productive but actually reduces focus and increases mistakes.",
+        "It’s better to give full attention to one task at a time, completing it efficiently before switching to the next.",
+        "Use the Pomodoro Technique or time blocking to manage tasks in focused chunks."]
+      },
+      {
+        "heading": "Creating a Realistic Daily Schedule",
+        "text": ["A realistic schedule includes breaks, buffers between tasks, and flexible time for the unexpected.",
+        "Don't overpack your day. leave space for rest and reflection.",
+        "Track your energy levels and schedule the most demanding work during your peak hours."]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Digital Privacy 101",
+    "content":[
+      {
+        "heading":"What is digital privacy?",
+        "text":[" Digital privacy is the protection of our personal information when using digital devices and online services.",
+        "We as internet users need to safeguard our sensitive information, such as your name, address, financial details, browsing history, and online communications, from being accessed or used without our consent."]
+      },
+      {
+        "heading": "Our Digital Footprint",
+        "text": ["From our existence on the Internet, we often volunteer a surprising amount of personal information not only through our social media posts, but also location check-ins, online purchases, and even the websites we browse. Over time, this data forms what is known as our digital footprint."]
+      },
+      {
+        "heading":"How our data is Used",
+        "text":["This digital footprint can be used to build detailed profiles of our interests, habits, behaviors, and even beliefs. Social media companies and other platforms can use, sell, or share this data without the user’s direct knowledge or permission.",
+        "This data is bought by many companies across various industries. They want to know more about their target customers or how to grow their business more efficiently"]
+      },
+      {
+      "heading":"What's the Risk?",
+      "text":["When our personal data is shared or sold without our knowledge, it can be used in ways we never intended. This includes targeted manipulation through ads, identity theft, price discrimination, or even being denied opportunities based on predictive profiling. The more data companies collect, the more control they have over influencing our behavior, often without us realizing it."]
+      },
+      {
+        "heading":"How to Limit Data Sharing",
+        "text":["The fact of the matter is that it's nearly impossible to go completely off the grid, but you can reduce how much data you share. Use strong privacy settings on apps and social media. Avoid oversharing personal information online. Use incognito or private browsing modes when needed. Install privacy-focused browser extensions like ad blockers or tracker blockers. Always review app permissions as many apps request access to data they don’t actually need.",
+                "Be more mindful about the data you share as even small bits of information can be collected, connected, and used to reveal much more about you than you realize."]
+      },
+      {
+        "heading": "What are Trackers & Third-party Cookies?",
+        "text": ["Trackers are invisible scripts embedded in websites and apps that collect information about what you do online such as what pages you visit, what you click, and how long you stay. They're mostly used for advertising or analytics.",
+                 "Third-party cookies are created by sites other than the one you’re visiting. They allow advertisers and companies to track you across multiple websites to build a detailed profile of your behavior."]
+      },
+      {
+        "heading": "What Is Data Profiling?",
+        "text":["Data profiling is the practice of combining bits of information from your online activity to create a digital profile. These profiles can include your interests, habits, spending patterns, and even predict your future behavior."]
+      }
+    ]
+  }
+]

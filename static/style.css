@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+  margin: 30px;
+}
+h1, h2 {
+  color: #3046d9;
+}
+a {
+  color: #db42bf;
+}
+button {
+  padding: 8px 16px;
+  background-color: #3046d9;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}

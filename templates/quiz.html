@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ lesson.title }} – Quiz</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="quiz-page">
+
+<!---------DO NOT ALTER THE WORDS INSIDE THIS OR {{ }} STYLE THE TAGS (<H1>,<P> ETC) IN STYLE.CSS-->
+  <h1>{{ lesson.title }} : Quiz</h1>
+
+  <form method="post" action="/quiz/{{ lesson.id }}/submit">
+  {% for q in questions %}
+  {% set q_index = loop.index0 %}
+    <div class="question">
+      <p><strong>{{ loop.index}}. {{ q.question }}</strong></p>
+      {% for opt in q.options %}
+        <label>
+          <input type="radio" name="q{{ q_index }}" value="{{ opt }}" >
+          {{ opt }}
+        </label><br>
+      {% endfor %}
+    </div>
+  {% endfor %}
+  <button type="submit">Submit Answers</button>
+</form>
+<!----DO NOT ALTER---->
+
+</body>
+</html>

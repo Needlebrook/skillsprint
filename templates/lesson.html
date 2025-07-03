@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ lesson.title }}</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="static\style.css">
+</head>
+<body class="lesson-page">
+
+  <!---------DO NOT ALTER THE WORDS INSIDE THIS OR {{ }} STYLE THE TAGS (<H1>,<P> ETC) IN STYLE.CSS-->
+  <h1>{{ lesson.title }}</h1>
+
+  {% for part in lesson.content %}
+    <h3>{{ part.heading }}</h3>
+    {% for line in part.text %}
+      <p>{{ line }}</p>
+    {% endfor %}
+  {% endfor %}
+  <a href="/quiz/{{ lesson.id }}" class="btn">Ready for the quiz?</a>
+  <!----DO NOT ALTER---->
+
+  
+
+</body>
+</html>

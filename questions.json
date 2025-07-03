@@ -1,0 +1,109 @@
+{
+  "1": [
+    {
+      "question": "Why is planning ahead important in time management?",
+      "options": [
+        "It guarantees everything will go exactly as planned",
+        "It helps reduce stress and gives you a structure to follow",
+        "It allows you to multitask better",
+        "It eliminates the need to take breaks"
+      ],
+      "answer": "It helps reduce stress and gives you a structure to follow"
+    },
+    {
+      "question": "According to the Eisenhower Matrix, what should you do with tasks that are important but not urgent?",
+      "options": [
+        "Do them immediately",
+        "Schedule them for later",
+        "Delegate them",
+        "Ignore them"
+      ],
+      "answer": "Schedule them for later"
+    },
+    {
+      "question": "What is the Pomodoro Technique?",
+      "options": [
+        "Working nonstop until a task is complete",
+        "Scheduling your day hour by hour",
+        "Working in 25-minute focused sessions with short breaks",
+        "Assigning tasks to others"
+      ],
+      "answer": "Working in 25-minute focused sessions with short breaks"
+    },
+    {
+      "question": "What is a good way to deal with procrastination?",
+      "options": [
+        "Work only when you feel like it",
+        "Take frequent long breaks",
+        "Break tasks into smaller steps and start with a quick one",
+        "Ignore deadlines and reduce pressure"
+      ],
+      "answer": "Break tasks into smaller steps and start with a quick one"
+    },
+    {
+      "question": "Why is multitasking discouraged in time management?",
+      "options": [
+        "It wastes time and energy",
+        "It improves your ability to focus",
+        "It boosts productivity significantly",
+        "It helps you finish more tasks at once"
+      ],
+      "answer": "It wastes time and energy"
+    }
+  ],
+  "2":[
+    {
+      "question": "What is a digital footprint?",
+      "options": [
+        "A virus that spreads on social media",
+        "The amount of time you spend online",
+        "The trail of data you leave behind from your online activity",
+        "Your physical location when using the internet"
+      ],
+      "answer": "The trail of data you leave behind from your online activity"
+    },
+    {
+      "question": "Who can benefit from buying or accessing your online data?",
+      "options": [
+        "Advertisers and companies",
+        "Only your friends",
+        "Public libraries",
+        "Food delivery drivers"
+      ],
+      "answer": "Advertisers and companies"
+    },
+    {
+      "question": "Which of these is a good way to limit online tracking?",
+      "options": [
+        "Clearing your desk",
+        "Using incognito/private browsing",
+        "Posting more on social media",
+        "Ignoring app updates"
+      ],
+        "answer": "Using incognito/private browsing"
+    },
+    {
+      "question": "Why should you review app permissions regularly?",
+      "options": [
+        "To unlock premium features",
+        "To speed up your phone",
+        "To make sure apps aren’t accessing more data than they need",
+        "To improve battery life"
+      ],
+      "answer": "To make sure apps aren’t accessing more data than they need"
+    },
+    {
+      "question": "What is the main purpose of third-party cookies?",
+      "options": [
+      "To improve battery life on your device",
+      "To store passwords securely",
+      "To track users across multiple websites for advertising",
+      "To speed up your internet connection"
+      ],
+      "answer": "To track users across multiple websites for advertising"
+    }
+  ]
+
+
+
+}

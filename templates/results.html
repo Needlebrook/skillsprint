@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz Results</title>
+  <link rel="stylesheet" href="static\style.css">
+</head>
+<body class="results-page">
+
+  <!---------DO NOT ALTER THE WORDS INSIDE THIS OR {{ }} STYLE THE TAGS (<H1>,<P> ETC) IN STYLE.CSS-->
+  <h1>{{ lesson.title }}: Results</h1>
+
+  <div class="score-box">
+    <h2>Your Score: {{ score }} / {{ total }}</h2>
+    {% if score == total %}
+      <p>🎉 Perfect! Well done!</p>
+    {% elif score >= total // 2 %}
+      <p>👍 Good job! Keep practicing.</p>
+    {% else %}
+      <p>📝 Not to worry, review the lesson and try again!</p>
+    {% endif %}
+  </div>
+    <a href="{{ url_for('dashboard') }}">Go to Home</a>
+    <!----DO NOT ALTER---->
+
+    
+</body>
+</html>
+
