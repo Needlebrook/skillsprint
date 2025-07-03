@@ -5,10 +5,10 @@ app = Flask(__name__)
 
 # Home route – shows all topics
 @app.route('/')
-def dashboard():
+def home():
     return render_template('index.html')
 
-
+#Route for selection of topics
 @app.route('/topics')
 def topics():
     with open('lessons.json') as f:
@@ -23,7 +23,7 @@ def show_lesson(lesson_id):
     lesson = next((l for l in lessons if l['id'] == lesson_id), None)
     return render_template('lesson.html', lesson=lesson)
 
-# Route to show the quiz for a lesson
+# Route to show the quiz for each lesson
 @app.route('/quiz/<int:lesson_id>')
 def show_quiz(lesson_id):
     with open('questions.json') as f:
@@ -62,5 +62,6 @@ def submit_quiz(lesson_id):
     return render_template('results.html', lesson=lesson, score=score, total=total)
 
 # Run the app
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))  # Render’s port
+    app.run(host="0.0.0.0", port=port)
